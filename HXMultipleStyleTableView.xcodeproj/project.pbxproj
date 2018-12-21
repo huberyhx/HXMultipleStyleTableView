@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834C550821CB711F00964D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C550721CB711F00964D9E /* AppDelegate.m */; };
+		834C550E21CB711F00964D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C550C21CB711F00964D9E /* Main.storyboard */; };
+		834C551021CB712000964D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834C550F21CB712000964D9E /* Assets.xcassets */; };
+		834C551321CB712000964D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834C551121CB712000964D9E /* LaunchScreen.storyboard */; };
+		834C551621CB712000964D9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C551521CB712000964D9E /* main.m */; };
+		834C551E21CB71EC00964D9E /* HXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C551D21CB71EC00964D9E /* HXTableViewController.m */; };
+		834C553621CB76B600964D9E /* HXBlendStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C553421CB76B600964D9E /* HXBlendStyleTableViewCell.m */; };
+		834C553721CB76B600964D9E /* HXBlendStyleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834C553521CB76B600964D9E /* HXBlendStyleTableViewCell.xib */; };
+		834C553B21CB76C400964D9E /* HXTitleStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C553921CB76C400964D9E /* HXTitleStyleTableViewCell.m */; };
+		834C553C21CB76C400964D9E /* HXTitleStyleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834C553A21CB76C400964D9E /* HXTitleStyleTableViewCell.xib */; };
+		834C554021CB76D200964D9E /* HXImageStyleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C553E21CB76D200964D9E /* HXImageStyleTableViewCell.m */; };
+		834C554121CB76D200964D9E /* HXImageStyleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834C553F21CB76D200964D9E /* HXImageStyleTableViewCell.xib */; };
+		834C554421CB7B2700964D9E /* HXBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C554321CB7B2700964D9E /* HXBaseTableViewCell.m */; };
+		834C554721CB7E8800964D9E /* HXTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C554621CB7E8800964D9E /* HXTitleModel.m */; };
+		834C554A21CB7E9100964D9E /* HXImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C554921CB7E9100964D9E /* HXImageModel.m */; };
+		834C554D21CB7E9C00964D9E /* HXBlendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C554C21CB7E9C00964D9E /* HXBlendModel.m */; };
+		834C555021CB7EE700964D9E /* HXCellGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 834C554F21CB7EE700964D9E /* HXCellGroupModel.m */; };
+		839718A621CC899B006690BE /* HXBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839718A521CC899B006690BE /* HXBaseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		834C550321CB711F00964D9E /* HXMultipleStyleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXMultipleStyleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834C550621CB711F00964D9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		834C550721CB711F00964D9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		834C550D21CB711F00964D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		834C550F21CB712000964D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834C551221CB712000964D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		834C551421CB712000964D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834C551521CB712000964D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		834C551C21CB71EC00964D9E /* HXTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXTableViewController.h; sourceTree = "<group>"; };
+		834C551D21CB71EC00964D9E /* HXTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTableViewController.m; sourceTree = "<group>"; };
+		834C553321CB76B600964D9E /* HXBlendStyleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBlendStyleTableViewCell.h; sourceTree = "<group>"; };
+		834C553421CB76B600964D9E /* HXBlendStyleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBlendStyleTableViewCell.m; sourceTree = "<group>"; };
+		834C553521CB76B600964D9E /* HXBlendStyleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXBlendStyleTableViewCell.xib; sourceTree = "<group>"; };
+		834C553821CB76C400964D9E /* HXTitleStyleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXTitleStyleTableViewCell.h; sourceTree = "<group>"; };
+		834C553921CB76C400964D9E /* HXTitleStyleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTitleStyleTableViewCell.m; sourceTree = "<group>"; };
+		834C553A21CB76C400964D9E /* HXTitleStyleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXTitleStyleTableViewCell.xib; sourceTree = "<group>"; };
+		834C553D21CB76D200964D9E /* HXImageStyleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXImageStyleTableViewCell.h; sourceTree = "<group>"; };
+		834C553E21CB76D200964D9E /* HXImageStyleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXImageStyleTableViewCell.m; sourceTree = "<group>"; };
+		834C553F21CB76D200964D9E /* HXImageStyleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXImageStyleTableViewCell.xib; sourceTree = "<group>"; };
+		834C554221CB7B2700964D9E /* HXBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseTableViewCell.h; sourceTree = "<group>"; };
+		834C554321CB7B2700964D9E /* HXBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBaseTableViewCell.m; sourceTree = "<group>"; };
+		834C554521CB7E8800964D9E /* HXTitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXTitleModel.h; sourceTree = "<group>"; };
+		834C554621CB7E8800964D9E /* HXTitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXTitleModel.m; sourceTree = "<group>"; };
+		834C554821CB7E9100964D9E /* HXImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXImageModel.h; sourceTree = "<group>"; };
+		834C554921CB7E9100964D9E /* HXImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXImageModel.m; sourceTree = "<group>"; };
+		834C554B21CB7E9C00964D9E /* HXBlendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBlendModel.h; sourceTree = "<group>"; };
+		834C554C21CB7E9C00964D9E /* HXBlendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBlendModel.m; sourceTree = "<group>"; };
+		834C554E21CB7EE700964D9E /* HXCellGroupModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXCellGroupModel.h; sourceTree = "<group>"; };
+		834C554F21CB7EE700964D9E /* HXCellGroupModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXCellGroupModel.m; sourceTree = "<group>"; };
+		839718A421CC899B006690BE /* HXBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXBaseModel.h; sourceTree = "<group>"; };
+		839718A521CC899B006690BE /* HXBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXBaseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834C550021CB711F00964D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834C54FA21CB711F00964D9E = {
+			isa = PBXGroup;
+			children = (
+				834C550521CB711F00964D9E /* HXMultipleStyleTableView */,
+				834C550421CB711F00964D9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834C550421CB711F00964D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834C550321CB711F00964D9E /* HXMultipleStyleTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834C550521CB711F00964D9E /* HXMultipleStyleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				834C550621CB711F00964D9E /* AppDelegate.h */,
+				834C550721CB711F00964D9E /* AppDelegate.m */,
+				834C551C21CB71EC00964D9E /* HXTableViewController.h */,
+				834C551D21CB71EC00964D9E /* HXTableViewController.m */,
+				834C551F21CB722800964D9E /* View */,
+				834C552021CB722E00964D9E /* Model */,
+				834C550C21CB711F00964D9E /* Main.storyboard */,
+				834C550F21CB712000964D9E /* Assets.xcassets */,
+				834C551121CB712000964D9E /* LaunchScreen.storyboard */,
+				834C551421CB712000964D9E /* Info.plist */,
+				834C551521CB712000964D9E /* main.m */,
+			);
+			path = HXMultipleStyleTableView;
+			sourceTree = "<group>";
+		};
+		834C551F21CB722800964D9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				834C554221CB7B2700964D9E /* HXBaseTableViewCell.h */,
+				834C554321CB7B2700964D9E /* HXBaseTableViewCell.m */,
+				834C553321CB76B600964D9E /* HXBlendStyleTableViewCell.h */,
+				834C553421CB76B600964D9E /* HXBlendStyleTableViewCell.m */,
+				834C553521CB76B600964D9E /* HXBlendStyleTableViewCell.xib */,
+				834C553821CB76C400964D9E /* HXTitleStyleTableViewCell.h */,
+				834C553921CB76C400964D9E /* HXTitleStyleTableViewCell.m */,
+				834C553A21CB76C400964D9E /* HXTitleStyleTableViewCell.xib */,
+				834C553D21CB76D200964D9E /* HXImageStyleTableViewCell.h */,
+				834C553E21CB76D200964D9E /* HXImageStyleTableViewCell.m */,
+				834C553F21CB76D200964D9E /* HXImageStyleTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		834C552021CB722E00964D9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				834C554E21CB7EE700964D9E /* HXCellGroupModel.h */,
+				834C554F21CB7EE700964D9E /* HXCellGroupModel.m */,
+				839718A421CC899B006690BE /* HXBaseModel.h */,
+				839718A521CC899B006690BE /* HXBaseModel.m */,
+				834C554B21CB7E9C00964D9E /* HXBlendModel.h */,
+				834C554C21CB7E9C00964D9E /* HXBlendModel.m */,
+				834C554521CB7E8800964D9E /* HXTitleModel.h */,
+				834C554621CB7E8800964D9E /* HXTitleModel.m */,
+				834C554821CB7E9100964D9E /* HXImageModel.h */,
+				834C554921CB7E9100964D9E /* HXImageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834C550221CB711F00964D9E /* HXMultipleStyleTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834C551921CB712000964D9E /* Build configuration list for PBXNativeTarget "HXMultipleStyleTableView" */;
+			buildPhases = (
+				834C54FF21CB711F00964D9E /* Sources */,
+				834C550021CB711F00964D9E /* Frameworks */,
+				834C550121CB711F00964D9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXMultipleStyleTableView;
+			productName = HXMultipleStyleTableView;
+			productReference = 834C550321CB711F00964D9E /* HXMultipleStyleTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834C54FB21CB711F00964D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = haoxu.wang;
+				TargetAttributes = {
+					834C550221CB711F00964D9E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 834C54FE21CB711F00964D9E /* Build configuration list for PBXProject "HXMultipleStyleTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834C54FA21CB711F00964D9E;
+			productRefGroup = 834C550421CB711F00964D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834C550221CB711F00964D9E /* HXMultipleStyleTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834C550121CB711F00964D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834C551321CB712000964D9E /* LaunchScreen.storyboard in Resources */,
+				834C551021CB712000964D9E /* Assets.xcassets in Resources */,
+				834C554121CB76D200964D9E /* HXImageStyleTableViewCell.xib in Resources */,
+				834C553721CB76B600964D9E /* HXBlendStyleTableViewCell.xib in Resources */,
+				834C553C21CB76C400964D9E /* HXTitleStyleTableViewCell.xib in Resources */,
+				834C550E21CB711F00964D9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834C54FF21CB711F00964D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839718A621CC899B006690BE /* HXBaseModel.m in Sources */,
+				834C551621CB712000964D9E /* main.m in Sources */,
+				834C553B21CB76C400964D9E /* HXTitleStyleTableViewCell.m in Sources */,
+				834C554721CB7E8800964D9E /* HXTitleModel.m in Sources */,
+				834C554D21CB7E9C00964D9E /* HXBlendModel.m in Sources */,
+				834C550821CB711F00964D9E /* AppDelegate.m in Sources */,
+				834C551E21CB71EC00964D9E /* HXTableViewController.m in Sources */,
+				834C554021CB76D200964D9E /* HXImageStyleTableViewCell.m in Sources */,
+				834C554421CB7B2700964D9E /* HXBaseTableViewCell.m in Sources */,
+				834C553621CB76B600964D9E /* HXBlendStyleTableViewCell.m in Sources */,
+				834C555021CB7EE700964D9E /* HXCellGroupModel.m in Sources */,
+				834C554A21CB7E9100964D9E /* HXImageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		834C550C21CB711F00964D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834C550D21CB711F00964D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		834C551121CB712000964D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834C551221CB712000964D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		834C551721CB712000964D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		834C551821CB712000964D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834C551A21CB712000964D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXMultipleStyleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXMultipleStyleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834C551B21CB712000964D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXMultipleStyleTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXMultipleStyleTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834C54FE21CB711F00964D9E /* Build configuration list for PBXProject "HXMultipleStyleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834C551721CB712000964D9E /* Debug */,
+				834C551821CB712000964D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834C551921CB712000964D9E /* Build configuration list for PBXNativeTarget "HXMultipleStyleTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834C551A21CB712000964D9E /* Debug */,
+				834C551B21CB712000964D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834C54FB21CB711F00964D9E /* Project object */;
+}
